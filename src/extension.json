@@ -6,10 +6,10 @@
   "icon": "icon.svg",
   "author": "shanyuhai",
   "description": "借鉴 DSH 的状态展示方式，在任务输入区下方紧凑显示轮数、模型步数、均速、Token 用量与上下文估算。非 DSH 官方插件。",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "apiVersion": 4,
   "engines": {
-    "lexora": ">=0.17.0 <1.0.0"
+    "lexora": ">=0.18.0"
   },
   "permissions": {
     "data": ["task.metrics", "context.usage"]
